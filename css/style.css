@@ -409,10 +409,11 @@ body {
 .contact-input button {
     text-align: center;
     margin: 10px 30px;
-    padding: 17px 40px;
-    border-radius: 5px;
-    color: white;
-    background-color: #ffffff1a;
+    padding: 12px 30px;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
     border: none;
 }
 
