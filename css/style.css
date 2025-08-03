@@ -550,7 +550,7 @@ body {
 /* mobile */
 @media (min-width:320px) and (max-width:425px) {
     .circle {
-        margin-left: 55px;
+        margin-left: 70px;
     }
 
     .intro-about-me i {
