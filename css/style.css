@@ -592,8 +592,8 @@ body {
 
     .skill-js h6:after {
         color: gray;
-        margin-left: 8px;
-        font-size: 33px;
+        margin-left: 33px;
+        font-size: 13px;
     }
 
     .sql h6::after {
