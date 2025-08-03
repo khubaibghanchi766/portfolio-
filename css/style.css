@@ -416,6 +416,40 @@ body {
     border: none;
 }
 
+.footer{
+    background-color: black;
+    height: 15vh;
+    margin-top: 30px;
+}
+.copy-right{display: flex; text-align: center; align-items: center ; margin-left: 32%;}
+.copy-right span{
+    color: white;
+    padding-top: 35px;
+    font-size: 22px;
+    font-style: oblique;
+    display: inline-block;
+}
+.vr{
+    margin-top: 35px;
+    margin-left: 20px;
+    width: 1px;
+    height: 24px;
+    background-color: white;
+}
+.copy-right h6{
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+    margin-top: 35px;
+    margin-left: 20px;
+} 
+.copy-right p{
+    color: white;
+    font-style: oblique;
+    font-weight: 300;
+    margin-top: 35px;
+    margin-left: 20px;
+}
 /* Responsive styles */
 @media (max-width: 576px) {
     .sm-d {
@@ -547,10 +581,37 @@ body {
         width: 100%;
         margin-left: 1px;
     }
+    /* section end */
+    .copy-right {
+        margin-left: 13%;
+    }
+    .copy-right span{
+        padding-top: 25px;
+    }
+    .vr{
+        margin-top: 25px;
+    }
+    .copy-right h6{
+        margin-top: 25px;
+    }
+    .copy-right p{
+        margin-top: 25px;
+    }
 }
 
 /* mobile */
 @media (min-width:320px) and (max-width:425px) {
+    .copy-right h6{
+        font-size: 16px;
+        margin-left: 7px;
+    }
+    .copy-right p{
+        font-size: 15px;
+        margin-left: 5px;
+    }
+    .vr{
+        margin-left: 7px;
+    }
     .circle {
         margin-left: 70px;
     }
@@ -606,8 +667,9 @@ body {
         margin-left: 115px;
     }
     .project01{
-        margin-left: 15px;
-        margin-right: 15px;
+        width: 280px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .map-boxs{
         width: 100%;
@@ -624,5 +686,9 @@ body {
     }
     .contact-input button{
         margin-top: 0px;
+    }
+    /* section end */
+    .copy-right{
+        margin-left: 0%;
     }
 }
