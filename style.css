@@ -129,7 +129,7 @@ body {
 
 .porfile {
     box-shadow: 28px 18px 0px 5px #333;
-    background-image: url(./assets/por.jpeg);
+    background-image: url(assets/por.jpeg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -159,7 +159,7 @@ body {
 }
 
 .circle {
-    background-image: url(./assets/porfile.jfif);
+    background-image: url(assets/porfile.jfif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -358,13 +358,13 @@ body {
 .uifry {
     background-color: #333;
     opacity: 0;
-    background-image: url(./assets/Untitled\ design.png);
+    background-image: url(assets/Untitled\ design.png);
     background-size: cover;
     background-repeat: no-repeat;
     /* padding: 10px 30px; */
 }
 .bouti{
-    background-image: url(./assets/Untitled\ design\ \(1\).png);
+    background-image: url(assets/Untitled\ design\ \(1\).png);
     background-size: cover;
     background-repeat: no-repeat;
 }
